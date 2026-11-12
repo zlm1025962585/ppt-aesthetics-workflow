@@ -1,0 +1,86 @@
+{
+  "_note": "已验证的童话花园风格参数。build_kit.py 直接取用；visual_check.py 用它做确定性底线校验。改配色只改这里，不要改脚本。",
+  "canvas": {"width_px": 1280, "height_px": 720, "ratio": "16:9", "padding_px": 60, "footer_y_px": 690},
+  "palette": {
+    "primary": "#43A047",
+    "secondary": "#A5D6A7",
+    "accent": "#FB8C00",
+    "background": "#FDFCF3",
+    "text": "#263238",
+    "title": "#1B5E20",
+    "quote": "#5D4037",
+    "flower": "#F8BBD0",
+    "muted": "#78909C",
+    "cream": "#FFF8E1",
+    "light": "#E8F5E9",
+    "border": "#C8E6C9"
+  },
+  "neutral_allowed": ["#FFFFFF", "#FFFDE7", "#F1F8E9", "#E3F2FD", "#FCE4EC", "#FFEBEE", "#78909C", "#546E7A", "#33691E", "#4E342E", "#8D6E63", "#B71C1C", "#C62828", "#EF9A9A", "#FFCC80", "#D7CCC8", "#E65100", "#FFD54F", "#CFD8DC", "#37474F"],
+  "typography": {
+    "heading_font": "Microsoft YaHei",
+    "quote_font": "KaiTi",
+    "cover_title_px": 60,
+    "page_title_px": 32,
+    "card_title_px": 22,
+    "body_px": 18,
+    "quote_px": 18,
+    "footer_px": 14,
+    "min_visible_px": 14,
+    "min_font_pt": 10
+  },
+  "visual": {
+    "_note": "插画是资产，不是可选装饰。build_kit.py 按角色取图，缺失会在输出里给 warnings。",
+    "illustrations": {
+      "cover": "assets/illustrations/cover_garden.jpg",
+      "cold": "assets/illustrations/winter_garden.jpg",
+      "spring": "assets/illustrations/spring_garden.jpg"
+    },
+    "usage": {
+      "cover": "整页铺满 1280x720，封面唯一一张满版图",
+      "cold": "情境导入页右侧 520x720 竖切，左侧用背景色横向渐变过渡",
+      "spring": "结尾页 1160x200 横幅，左深右浅横向蒙层压字"
+    },
+    "scrims": {
+      "cover": "自上而下：#FDFCF3 10% → #1B5E20 10%（40%）→ #1B5E20 66%",
+      "cold_panel": "#FDFCF3 100% → 0%（左到右）",
+      "spring_banner": "#1B5E20 72% → 22%（65%）→ 0%"
+    },
+    "forbidden": ["每页都铺满同一张背景图", "插画上直接压正文不加深色蒙层", "拉伸变形（必须按 cover 规则裁切）"]
+  },
+  "motif": [
+    "标题下 1px 贯通细线（主色）",
+    "标题左侧圆形编号徽标（橙底白字）",
+    "固定页脚：情境名 + 角色 + 页码 N/总数",
+    "口诀块：浅黄底 + 金色描边 + 楷体大字"
+  ],
+  "illustration_style": "children storybook illustration, soft watercolor, warm and dreamy",
+  "illustration_forbidden": ["text", "letters", "watermark", "3D render", "photorealistic"],
+  "layout_rules": {
+    "min_text_shapes_per_slide": 2,
+    "max_text_styles_per_slide": 4,
+    "min_cards": 1,
+    "max_cards": 4,
+    "round_corner_px": 12,
+    "safe_padding_px": 60,
+    "min_pictures_per_deck": 3,
+    "cover_picture_min_area_ratio": 0.85
+  },
+  "docx_html_rules": {
+    "body_font_first": "SimSun",
+    "body_size_pt": 12,
+    "body_indent": "2em",
+    "table_requires": ["thead", "tbody"],
+    "cover_title_tag": "p",
+    "max_h1": 1,
+    "page_furniture": "@page"
+  },
+  "hard_bans": [
+    "题干或答案栅格化为图片",
+    "直角方块（统一圆角）",
+    "彩虹渐变 / 荧光色 / 阴影堆叠",
+    "一页超过 4 种文字样式",
+    "装饰元素压住正文",
+    "只有纯色块、没有任何插画的课件",
+    "插画被拉伸变形"
+  ]
+}

@@ -1,0 +1,52 @@
+<Slide style={{ padding: 60, background: '#FDFCF3', position: 'relative' }}>
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'column', height: '100%' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+            <Box style={{ width: 48, height: 48, borderRadius: 24, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#FFFFFF' }}>01</Text>
+            </Box>
+            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1B5E20', lineHeight: 1.2 }}>挑战一：方法指导 · 想象画面四步法</Text>
+        </Box>
+        <Box style={{ width: '100%', height: 1, background: '#43A047', marginTop: 14, marginBottom: 20 }} />
+        <Text style={{ fontSize: 18, color: '#546E7A', lineHeight: 1.6, marginBottom: 20 }}>想象画面题不难——跟着四步法走，画面有颜色、有声音、有感受！</Text>
+        <Box style={{ flexDirection: 'row', gap: 16, marginBottom: 22 }}>
+            <Box style={{ width: 272, background: '#E8F5E9', borderRadius: 12, padding: 18, flexDirection: 'column', gap: 10 }}>
+                <Box style={{ width: 44, height: 44, borderRadius: 22, background: '#43A047', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#FFFFFF' }}>1</Text>
+                </Box>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1B5E20' }}>圈词语</Text>
+                <Text style={{ fontSize: 17, color: '#263238', lineHeight: 1.6 }}>圈出描写颜色、声音、动作的关键词。</Text>
+            </Box>
+            <Box style={{ width: 272, background: '#E8F5E9', borderRadius: 12, padding: 18, flexDirection: 'column', gap: 10 }}>
+                <Box style={{ width: 44, height: 44, borderRadius: 22, background: '#43A047', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#FFFFFF' }}>2</Text>
+                </Box>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1B5E20' }}>放电影</Text>
+                <Text style={{ fontSize: 17, color: '#263238', lineHeight: 1.6 }}>闭上眼睛，把文字变成脑海里的画面。</Text>
+            </Box>
+            <Box style={{ width: 272, background: '#E8F5E9', borderRadius: 12, padding: 18, flexDirection: 'column', gap: 10 }}>
+                <Box style={{ width: 44, height: 44, borderRadius: 22, background: '#43A047', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#FFFFFF' }}>3</Text>
+                </Box>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1B5E20' }}>找感觉</Text>
+                <Text style={{ fontSize: 17, color: '#263238', lineHeight: 1.6 }}>想一想这幅画面带给你什么感受。</Text>
+            </Box>
+            <Box style={{ width: 272, background: '#E8F5E9', borderRadius: 12, padding: 18, flexDirection: 'column', gap: 10 }}>
+                <Box style={{ width: 44, height: 44, borderRadius: 22, background: '#43A047', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#FFFFFF' }}>4</Text>
+                </Box>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#1B5E20' }}>写清楚</Text>
+                <Text style={{ fontSize: 17, color: '#263238', lineHeight: 1.6 }}>用“我仿佛看到……听到……感到……”写下来。</Text>
+            </Box>
+        </Box>
+        <Box style={{ background: '#FFF8E1', borderRadius: 12, border: '2px solid #FFD54F', padding: 22, flexDirection: 'row', alignItems: 'center', gap: 24 }}>
+            <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#E65100', flexShrink: 0 }}>口诀记一记</Text>
+            <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#5D4037', lineHeight: 1.5, fontFamily: 'KaiTi, 楷体, serif' }}>
+                一圈词语，二放电影，三找感觉，四写清楚。
+            </Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', top: 670, left: 60, width: 1160, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#78909C' }}>重建巨人的花园 · 花园小使者 · 挑战一</Text>
+        <Text style={{ fontSize: 14, color: '#78909C' }}>9 / 30</Text>
+    </Box>
+</Slide>

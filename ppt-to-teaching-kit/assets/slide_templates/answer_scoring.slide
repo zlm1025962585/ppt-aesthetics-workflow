@@ -1,0 +1,83 @@
+<Slide style={{ padding: 60, background: '#FDFCF3', position: 'relative' }}>
+    <Box style={{ position: 'relative', zIndex: 2, flexDirection: 'column', height: '100%' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+            <Box style={{ width: 48, height: 48, borderRadius: 24, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#FFFFFF' }}>01</Text>
+            </Box>
+            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#1B5E20', lineHeight: 1.2 }}>挑战一：示例答案与评分要点</Text>
+            <Box style={{ background: '#FFF8E1', borderRadius: 16, padding: 8, marginLeft: 'auto' }}>
+                <Text style={{ fontSize: 15, color: '#E65100', fontWeight: 'bold' }}>满分 5 分</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: '100%', height: 1, background: '#43A047', marginTop: 14, marginBottom: 18 }} />
+        <Box style={{ flexDirection: 'row', gap: 24 }}>
+            <Box style={{ width: 700, flexDirection: 'column', gap: 12 }}>
+                <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#FB8C00', letterSpacing: 2 }}>示 例 答 案 · 分 步 呈 现</Text>
+                <Box style={{ background: '#FFFFFF', borderRadius: 10, border: '1px solid #C8E6C9', padding: 14 }}>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.6 }}>
+                        <span style={{ fontWeight: 'bold', color: '#43A047' }}>第1步（圈词语）：</span>
+                        我圈出“雪用他的白色大衣覆盖着青草”“霜把所有的树枝涂成了银色”“整天在花园里呼啸着”。
+                    </Text>
+                </Box>
+                <Box style={{ background: '#FFFFFF', borderRadius: 10, border: '1px solid #C8E6C9', padding: 14 }}>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.6 }}>
+                        <span style={{ fontWeight: 'bold', color: '#43A047' }}>第2步（想画面）：</span>
+                        我仿佛看到巨人的花园里铺着白茫茫的雪，青草被雪盖住了，树枝被霜涂成银色，北风裹着皮衣在花园里乱跑。
+                    </Text>
+                </Box>
+                <Box style={{ background: '#FFFFFF', borderRadius: 10, border: '1px solid #C8E6C9', padding: 14 }}>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.6 }}>
+                        <span style={{ fontWeight: 'bold', color: '#43A047' }}>第3步（找感觉）：</span>
+                        我仿佛听到北风“呼呼”的吼叫声，感到花园冷清、荒凉，没有一点生气。
+                    </Text>
+                </Box>
+                <Box style={{ background: '#E8F5E9', borderRadius: 10, border: '2px solid #43A047', padding: 14 }}>
+                    <Text style={{ fontSize: 16, color: '#1B5E20', lineHeight: 1.65 }}>
+                        <span style={{ fontWeight: 'bold' }}>完整答案：</span>
+                        读了这段话，我仿佛看到巨人的花园里铺着白茫茫的雪，青草被雪盖住了，树枝被霜涂成了银色，北风裹着皮衣在花园里整天呼啸。我仿佛听到北风“呼呼”的吼叫声。我感到花园冷清、荒凉，没有一点生气。
+                    </Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 436, flexDirection: 'column', gap: 10 }}>
+                <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#FB8C00', letterSpacing: 2 }}>评 分 要 点（共 5 分）</Text>
+                <Box style={{ background: '#FFFDE7', borderRadius: 10, padding: 12, flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+                    <Box style={{ width: 40, height: 40, borderRadius: 20, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>1分</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.5 }}>圈出或用上关键词（雪、霜、北风呼啸等）</Text>
+                </Box>
+                <Box style={{ background: '#FFFDE7', borderRadius: 10, padding: 12, flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+                    <Box style={{ width: 40, height: 40, borderRadius: 20, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>1分</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.5 }}>画面有视觉内容（颜色、事物、样子）</Text>
+                </Box>
+                <Box style={{ background: '#FFFDE7', borderRadius: 10, padding: 12, flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+                    <Box style={{ width: 40, height: 40, borderRadius: 20, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>1分</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.5 }}>画面有声音或动态</Text>
+                </Box>
+                <Box style={{ background: '#FFFDE7', borderRadius: 10, padding: 12, flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+                    <Box style={{ width: 40, height: 40, borderRadius: 20, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>1分</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.5 }}>说出感受</Text>
+                </Box>
+                <Box style={{ background: '#FFFDE7', borderRadius: 10, padding: 12, flexDirection: 'row', gap: 12, alignItems: 'center' }}>
+                    <Box style={{ width: 40, height: 40, borderRadius: 20, background: '#FB8C00', justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>1分</Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#263238', lineHeight: 1.5 }}>感受与画面一致、语句通顺</Text>
+                </Box>
+                <Box style={{ background: '#F1F8E9', borderRadius: 10, border: '1px dashed #A5D6A7', padding: 12 }}>
+                    <Text style={{ fontSize: 15, color: '#33691E', lineHeight: 1.6 }}>对照提示：先看有没有原文依据，再看画面有没有颜色、声音、感受。</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', top: 670, left: 60, width: 1160, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <Text style={{ fontSize: 14, color: '#78909C' }}>重建巨人的花园 · 花园小使者 · 挑战一</Text>
+        <Text style={{ fontSize: 14, color: '#78909C' }}>10 / 30</Text>
+    </Box>
+</Slide>
